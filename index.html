@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino's Store</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo-nav">
+            <img src="img/logo.jpg" alt="Logo" class="logo" />
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero section-fade" id="hero">
+        <h1>Welcome to the best Arduino Store 💻</h1>
+        <hr class="section-line">
+        <img src="img/all.jpg" alt="Arduino image" class="between-lines-img">
+        <hr class="section-line">
+        <p class="hero-subheading">Your one-stop shop for Arduino boards and accessories!</p>
+        <a href="#products" class="cta-btn">Discover our products</a>
+    </section>
+
+    <section class="products section-fade" id="products">
+        <h2>Featured Products</h2>
+        <div class="product-list">
+            <div class="product-card" tabindex="0">
+                <img src="img/uno.jpg" alt="Arduino Uno">
+                <h3>Arduino Uno</h3>
+                <p>The classic Arduino board.</p>
+                <p class="price">
+                  <img src="img/riyal.png" alt="SAR" class="riyal-symbol"> 70
+                </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card" tabindex="0">
+                <img src="img/ultrasonic.jpg" alt="ultrasonic Sensor">
+                <h3>ultrasonic Sensor</h3>
+                <p>Compact and powerful for your small projects.</p>
+                <p class="price">
+                  <img src="img/riyal.png" alt="SAR" class="riyal-symbol"> 45
+                </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card" tabindex="0">
+                <img src="img/leds.jpeg" alt="Arduino Led pins">
+                <h3>Arduino Led pins</h3>
+                <p>Led to use in your projects</p>
+                 <p class="price">
+                  <img src="img/riyal.png" alt="SAR" class="riyal-symbol"> 30
+                </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card" tabindex="0">
+                <img src="img/jumperWire.jpg" alt="jumper wires">
+                <h3>jumper wires</h3>
+                <p>to connect your parts with the breadboard.</p>
+                 <p class="price">
+                  <img src="img/riyal.png" alt="SAR" class="riyal-symbol"> 25
+                </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card" tabindex="0">
+                <img src="img/breadbord.jpg" alt="Breadboard">
+                <h3>Breadboard</h3>
+                <p>to connect the parts with the arduino.</p>
+                 <p class="price">
+                  <img src="img/riyal.png" alt="SAR" class="riyal-symbol"> 50
+                </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card" tabindex="0">
+                <img src="img/full.jpg" alt="Starter kit">
+                <h3>Starter kit</h3>
+                <p>Good choice for beginner.</p>
+                <p class="price">
+                  <img src="img/riyal.png" alt="SAR" class="riyal-symbol">180
+                </p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="reviews">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-list">
+            <blockquote>
+                "Fast shipping and great quality boards. Highly recommended!"
+                <footer>- Sarah A.</footer>
+            </blockquote>
+            <blockquote>
+                "Excellent customer service and a wide selection of Arduino products."
+                <footer>- John D.</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="newsletter">
+                <form>
+                    <label for="newsletter-email">Subscribe to our newsletter : </label>
+                    <input type="email" id="newsletter-email" name="email" required placeholder="Enter your email" />
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-links">
+                <a href="#" class="footer-link"><i class="fas fa-envelope"></i> Contact</a> |
+                <a href="#" class="footer-link"><i class="fas fa-info-circle"></i> About</a> |
+                <a href="#" class="footer-link"><i class="fas fa-user-shield"></i> Privacy Policy</a>
+            </div>
+            <div class="footer-contact" id="contact">
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    Email: <a href="mailto:aboalgasim.sami@gmail.com">aboalgasim.sami@gmail.com</a>
+                </p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div>
+                &copy; 2025 Arduino store. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
